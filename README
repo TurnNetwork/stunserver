@@ -177,4 +177,8 @@ Contact the author
   John Selbie
   john@selbie.com
 
-
+## 启动命令
+```
+nohup ./stunserver --mode full --primaryinterface eth1 --altinterface eth2 &
+```
+> eth1和eth2分别配置的是主备网卡的公网IP。
